@@ -10,4 +10,16 @@
   .content {
     padding: var(--content-padding);
   }
-  
+  .banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+    padding: 10px 0;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    font-weight: bold;
+  }
